@@ -5,10 +5,9 @@
 ## :eyes:스터디원
 
 - 김태송
-- 한재연
-- 오민석
-- 이하영
-- 장요엘
+- 강하림
+- <a href = "https://github.com/hayeong-lee">hayeong-lee
+- <a href = "https://github.com/leeeeeoy">leeeeeoy
 
 ## :zap:진행 방식
 
