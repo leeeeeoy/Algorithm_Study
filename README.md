@@ -6,7 +6,7 @@
 
 - 김태송
 - 이수빈
-- <a href = "https://github.com/hayeong-lee">harimkang
+- <a href = "https://github.com/harimkang">harimkang
 - <a href = "https://github.com/hayeong-lee">hayeong-lee
 - <a href = "https://github.com/leeeeeoy">leeeeeoy
 
