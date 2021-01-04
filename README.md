@@ -5,7 +5,8 @@
 ## :eyes:스터디원
 
 - 김태송
-- 강하림
+- 이수빈
+- <a href = "https://github.com/hayeong-lee">harimkang
 - <a href = "https://github.com/hayeong-lee">hayeong-lee
 - <a href = "https://github.com/leeeeeoy">leeeeeoy
 
