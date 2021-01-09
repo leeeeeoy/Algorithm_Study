@@ -1,13 +1,13 @@
 # _Algorithm-Study_
 
-알고리즘 스터디
+알고리즘 스터디<br/>
+_(20/01/09 ~ )_
 
 ## :eyes:스터디원
 
-- 김태송
-- 이수빈
+- 최우석
+- 김민규
 - <a href = "https://github.com/harimkang">harimkang
-- <a href = "https://github.com/hayeong-lee">hayeong-lee
 - <a href = "https://github.com/leeeeeoy">leeeeeoy
 
 ## :zap:진행 방식
