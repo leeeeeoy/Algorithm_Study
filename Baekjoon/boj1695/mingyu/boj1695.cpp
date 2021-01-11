@@ -19,6 +19,7 @@ int palindrome(int start, int end) {
 
 	// result 변수를 생성해서 dp테이블에 포인터를 연결한다.
 	int& result = dp[start][end];
+	
 	// dp테이블은 -1로 초기화된 상태이다. 즉 -1이면 처리해야 할 상태이고, -1이 아니라면 처리된 상태라는 뜻이 된다.
 	// result가 처리되었다면(-1이 아니라면), 다시 처리할 필요가 없으니 result를 그대로 반환해주면 된다.
 	if (result != -1) return result;
