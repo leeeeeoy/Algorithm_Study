@@ -1,12 +1,6 @@
-"""
-Baekjoon 2306. 유전자
-url: https://www.acmicpc.net/problem/2306
-writer: Harim Kang
-Language: Python3
-Date: 2021.01.09
-Status: Success, Runtime: 488 ms, Memory Usage: 125404 KB
-"""
+# 풀이
 
+```python
 dna = input()
 dp = [[0 for _ in dna] for _ in dna]
 
@@ -27,3 +21,19 @@ for i in range(1, len(dna)):
             dp[s][e] = max(dp[s][e], dp[s][j] + dp[j + 1][e])
 
 print(dp[0][len(dna) - 1])
+```
+
+## 접근방법
+
+- 글자 수를 하나씩 늘려가면서, 양 끝을 체크하고, 가운데를 체크하는 순서로 진행
+- 2개, 3개 ... 늘려가면서 dp 배열을 채우는 방식의 dp 문제
+- 양끝이 a,t 이거나 , g,c일때만 그 안쪽의 문자보다 2를 더해주면 된다.
+
+## 어려웠던 부분
+
+- 처음에는 중간부분의 확인을 안해서 어려움을 겪었다.
+- 백준 사이트 기준으로 python3에서는 시간초과이지만, pypy를 쓰면 돌아간다.
+
+## 새로 알게 된 것
+
+- 안쪽의 for문을 없앨 수 있는 방법이 있지 않을까 한번 더 생각해볼 만한 문제이다.
