@@ -5,8 +5,8 @@ _(20/01/09 ~ )_
 
 ## :eyes:스터디원
 
-- 최우석
-- 김민규
+- <a href = "https://github.com/willy950205">willy950205
+- <a href = "https://github.com/ralskwo">ralskwo
 - <a href = "https://github.com/harimkang">harimkang
 - <a href = "https://github.com/leeeeeoy">leeeeeoy
 
