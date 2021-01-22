@@ -5,10 +5,10 @@ _(20/01/09 ~ )_
 
 ## :eyes:스터디원
 
-- <a href = "https://github.com/willy950205">willy950205
-- <a href = "https://github.com/ralskwo">ralskwo
-- <a href = "https://github.com/harimkang">harimkang
-- <a href = "https://github.com/leeeeeoy">leeeeeoy
+- <a href = "https://github.com/willy950205">willy950205</a>
+- <a href = "https://github.com/ralskwo">ralskwo</a>
+- <a href = "https://github.com/harimkang">harimkang</a>
+- <a href = "https://github.com/leeeeeoy">leeeeeoy</a>
 
 ## :zap:진행 방식
 
