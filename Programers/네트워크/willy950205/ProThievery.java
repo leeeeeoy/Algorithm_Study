@@ -1,4 +1,4 @@
-package practice;
+package Programers.네트워크.willy950205;
 
 public class ProThievery {
     public int solution(int[] money) {
