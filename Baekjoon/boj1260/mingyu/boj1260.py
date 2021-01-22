@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 깊이 우선 탐색. stack으로 구현한다.
 def DFS(graph, start_node):
     # 이미 방문한 노드들의 리스트, 방문하여 확인해야 할 노드들의 stack
