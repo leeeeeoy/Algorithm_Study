@@ -14,7 +14,6 @@ int DNA_dp[502][502];
 int main() {
 	string str;
 	cin >> str;
-
 	// 문자열의 길이
 	int len = str.size();
 	
