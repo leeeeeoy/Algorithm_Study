@@ -22,17 +22,22 @@ ex) 폴더 구조 참고
 
 ```
 Algorithm_Study
-├─Baekjoon
-│  └─boj1234
-│    ├─ leeeeeoy
-│    │    boj1234.go
-│    │    README.md
-│    └─ another-id
-│         boj1234.py
-├─Programers
-│  └─problem
-│    ├─ leeeeeoy
-│    │    solution.go
-│    └─ another-id
-│         solution.cpp
+|──Problems
+|   └─1st_week
+|       ├─Baekjoon
+│       |  └─boj1234
+│       |    ├─ leeeeeoy
+│       |    │    └─boj1234.go
+│       |    │      README.md
+|       |    |
+│       |    └─ another-id
+│       |         └─boj1234.py
+|       |
+|       └─Programers
+│          └─problem
+│            ├─ leeeeeoy
+│            │    └─solution.go
+|            |
+│            └─ another-id
+│                 └─solution.cpp
 ```
