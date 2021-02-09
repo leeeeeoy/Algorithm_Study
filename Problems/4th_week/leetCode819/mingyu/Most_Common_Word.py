@@ -51,6 +51,7 @@ from collections import Counter
 def mostCommonWord(paragraph, banned):
     paragraph = re.sub('[^A-z]', ' ', paragraph)
     word_list = list(paragraph.lower().split())
+    
     for ban_word in banned:
         while ban_word in word_list:
             word_list.remove(ban_word)
