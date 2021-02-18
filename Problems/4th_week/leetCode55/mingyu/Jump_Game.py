@@ -9,7 +9,7 @@ Status: , Runtime:  ms, Memory Usage:  KB
 
 
 class Solution:
-    def canJump(self, nums: List[int]) -> bool:
+    def canJump(self, nums):
 
         # 현재 위치에서 전진할 수 있는 칸의 수
         move_able = 0
@@ -22,7 +22,7 @@ class Solution:
             move_able = max(move_able-1, i)
             print(move_able, i)
 
-            # 맨 마지막 원소에 도착하기 전에 M이 0이 된다면 불가능하다는 뜻이다.
+            # 맨 마지막 원소에 도착하기 전에 move_able이 0이 된다면 불가능하다는 뜻이다.
             if move_able == 0:
                 return False
 
