@@ -4,7 +4,7 @@ url: https://leetcode.com/problems/jump-game/
 writer: Harim Kang
 Language: Python3
 Date: 2021.02.03
-Status: Success, Runtime: 40 ms, Memory Usage: 14.1 MB
+Status: Success, Runtime: 88 ms, Memory Usage: 16.1 MB
 """
 
 
