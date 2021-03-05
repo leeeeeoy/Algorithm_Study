@@ -9,9 +9,9 @@ Status: , Runtime:  ms, Memory Usage:  KB
 
 string = input()
 stack = list()
- 
+
 for i in string:
- 
+
     # ")"일 경우
     if i == ")":
         # 괄호를 수로 계산한 것을 담아둘 변수
@@ -27,8 +27,8 @@ for i in string:
                 # tmp가 0이라면 그냥 2를 넣어주고
                 if tmp == 0:
                     stack.append(2)
-                
-                #tmp에 값이 있다면 ()를 감싸고 있는 다른 괄호가 있다는 것이다. 감싸는 경우에는 곱연산이므로 2*tmp.
+
+                # tmp에 값이 있다면 ()를 감싸고 있는 다른 괄호가 있다는 것이다. 감싸는 경우에는 곱연산이므로 2*tmp.
                 else:
                     stack.append(2 * tmp)
 
@@ -43,11 +43,11 @@ for i in string:
             # top이 숫자라면 tmp에 top을 더해준다. 시작되는 괄호이거나 연속된 괄호라는 의미가 된다.
             else:
                 tmp += top
- 
+
     # 위의 매커니즘과 동일
     elif i == "]":
         tmp = 0
- 
+
         while stack:
             top = stack.pop()
             if top == "[":
@@ -61,13 +61,13 @@ for i in string:
                 exit(0)
             else:
                 tmp += top
- 
+
     else:
         stack.append(i)
- 
+
 # stack에 존재하는 수의 합
 answer = 0
- 
+
 for i in stack:
     # 만일 괄호가 남아있다면 0을 출력 후 프로그램 종료
     if type(i) != int:
@@ -76,7 +76,7 @@ for i in stack:
     # 스택 내의 수를 합함
     else:
         answer += i
- 
+
 print(answer)
 
 ''' 주석 없는 코드
