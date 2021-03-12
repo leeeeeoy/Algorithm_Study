@@ -11,6 +11,7 @@ from heapq import heappush
 
 prices = [7, 1, 5, 3, 6, 4]
 
+
 def maxProfit(prices):
 
     # prices의 길이가 1이라면 계산이 불가능하다. 그러므로 0을 리턴
@@ -29,7 +30,7 @@ def maxProfit(prices):
         heappush(min_price, price)
 
         # 오늘의 주식 가격 - 이전 주식 가격 중 가장 작은 값이 현재까지 도출된 최대 이익보다 크다면
-        if price - min_price[0]> profit:
+        if price - min_price[0] > profit:
             # 해당 값을 최대 이익으로 업데이트
             profit = price - min_price[0]
 
@@ -55,7 +56,3 @@ def maxProfit(prices):
 
     return profit
 '''
-   
-
-
-print(maxProfit(prices))

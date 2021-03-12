@@ -10,8 +10,8 @@ Status: , Runtime:  ms, Memory Usage:  KB
 1. 리프 노드까지의 depth의 합이 홀수면 성원이가 이긴다.
 '''
 
-import sys
 # 재귀 제한 해제
+import sys
 sys.setrecursionlimit(10**9)
 
 N = int(sys.stdin.readline())
@@ -29,6 +29,8 @@ answer = 0
 visited = [False] * (N + 1)
 
 # 현재 노드와 현재 노드의 깊이.
+
+
 def DFS(node, depth):
     # 함수가 끝난 후에도 answer의 값을 유지하기 위해 global로 설정
     global answer
@@ -50,6 +52,7 @@ def DFS(node, depth):
     if is_Leaf:
         # 해당 노드까지의 깊이를 answer에 저장
         answer += depth
+
 
 # DFS를 실행한다. 1번 노드를 루트로 삼고 루트의 깊이는 0이다.
 DFS(1, 0)
